@@ -1,1 +1,28 @@
-//
+
+@import "~tailwindcss/base.css";
+
+@import "~tailwindcss/components.css";
+
+@import "~tailwindcss/utilities.css";
+
+//Theme colors
+$coral: #FF817D;
+$lightPink: #FFF0EA;
+$darkGrey: #999999;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.backgroundImage {
+    width: 100%;
+    position: absolute;
+}
+
+.text {
+    background-color: $coral;
+}
