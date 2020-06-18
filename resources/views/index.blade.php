@@ -6,15 +6,17 @@
 
         <title>Leospa</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-        </style>
+        <link rel="stylesheet" type="text/css" href="resources/sass/app.scss">
+
+
     </head>
     <body>
+        <img class="backgroundImage" src="leospaBackgroundImage.png" alt="Background Image">
+
+
 
     </body>
 </html>
