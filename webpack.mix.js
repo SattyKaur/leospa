@@ -19,3 +19,5 @@ mix.js('resources/js/app.js', 'public/js')
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.config.js') ],
     })
+    .copy('node_modules/material-icons/css/material-icons.min.css', 'public/css/material-icons.min.css');
+
