@@ -13,7 +13,9 @@ module.exports = {
       },
       colors: {
           coral: '#FF817D',
+          lightCoral: '#ffc0be',
           darkCoral: '#ff5c57',
+          paleGrey: '#F1F1F1',
           lightPink: '#FFF0EA',
           lightGrey: '#EBEBEB',
           grey: '#999999',
