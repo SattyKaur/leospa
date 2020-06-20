@@ -81,6 +81,42 @@
     </div>
 
 
+    <div class="popularProcedures">
+        <h3 class="font-sans text-center text-4xl">Popular Procedures</h3>
+        <p class="font-serif text-center text-sm text-grey mt-6 leading-loose">To doesn't his appear replenish together called he of mad place won't wherein blessed second every <br>
+        wherein were meat kind wherein and martcin</p>
+
+        <div class="cardContainer">
+            <div class="card border-2 border-lightGrey mx-4">
+                <div class="bg-grey cardImg"></div>
+                <h2 class="font-sans text-center text-3xl pt-3">Massage Therapy</h2>
+                <p class="smallText font-serif text-center p-1 text-grey text-xs leading-loose">Living winged said you darkness you're divide <br> gathered and bring one seasons face great dr <br>
+                Waters firmament place which.</p>
+                <button class="cardButton px-6 py-2 rounded-full text-xs font-serif text-white bg-darkGrey hover:bg-grey cursor-pointer">
+                    READ MORE</button>
+            </div>
+            <div class="card mx-4 shadow-2xl">
+                <div class="bg-grey cardImg"></div>
+                <h2 class="font-sans text-center text-3xl pt-3">Beauty Care</h2>
+                <p class="smallText font-serif text-center p-1 text-grey text-xs leading-loose">Living winged said you darkness you're divide <br> gathered and bring one seasons face great dr <br>
+                    Waters firmament place which.</p>
+                <button class="cardButton px-6 py-2 rounded-full text-xs font-serif text-white bg-coral hover:bg-darkCoral cursor-pointer">
+                    READ MORE</button>
+            </div>
+            <div class="card border-2 border-lightGrey mx-4">
+                <div class="bg-grey cardImg"></div>
+                <h2 class="font-sans text-center text-3xl pt-3">Executive Reflexology</h2>
+                <p class="smallText font-serif text-center p-1 text-grey text-xs leading-loose">Living winged said you darkness you're divide <br> gathered and bring one seasons face great dr <br>
+                    Waters firmament place which.</p>
+                <button class="cardButton px-6 py-2 rounded-full text-xs font-serif text-white bg-darkGrey hover:bg-grey cursor-pointer">
+                    READ MORE</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
 
 
 
