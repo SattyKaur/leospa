@@ -29,7 +29,7 @@ body {
     z-index: -1;
 }
 
-.content {
+.banner {
     width: 65%;
     margin: auto;
 }
@@ -96,7 +96,8 @@ body {
 
 
 .about {
-    margin-top: 350px;
+    width: 80%;
+    margin: 250px auto 0 auto;
     text-align: center;
 }
 
@@ -130,7 +131,7 @@ body {
 }
 
 .cardContainer {
-    margin: 60px auto 0 auto;
+    margin: 70px auto 0 auto;
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -154,4 +155,70 @@ body {
     margin: 20px auto 25px auto;
 }
 
+.testimonial {
+    margin-top: 100px;
+    width: 100%;
+    background-color: $lightPink;
+}
 
+.dot {
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 25px 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.team {
+    width: 70%;
+    margin: 150px auto 0 auto;
+}
+
+.teamCard {
+    width: 420px;
+    height: 520px;
+    margin: 20px 20px 120px 20px;
+    position: relative;
+}
+
+.teamDetail {
+    position:absolute;
+    width: 80%;
+    top:480px;
+    left: 42px;
+}
+
+.selectedDetail {
+    position:absolute;
+    width: 80%;
+    top:450px;
+    left: 42px;
+}
+
+.flexIcons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactIcons {
+    width: 28px;
+    height: 28px;
+}
+
+.apptForm {
+    width: 100%;
+    margin-top: 100px;
+    height: 570px;
+    display: flex;
+}
+
+.formDiv {
+    width: 30%;
+}
+
+.form {
+    width: 70%;
+}
