@@ -22,6 +22,7 @@ $rufina: 'Rufina', serif;
 body {
     margin: 0;
     padding: 0;
+    height: auto;
 }
 .backgroundImage {
     width: 100%;
@@ -48,13 +49,8 @@ body {
 }
 
 
-
 .links {
-    display: flex;
-    margin-left: 150px;
-
     div {
-        margin: 20px;
         font-family: $roboto;
         font-size: 0.7em;
     }
@@ -79,7 +75,6 @@ body {
     height: 50px;
     border-radius: 50%;
     background: $lightPink;
-    float: left;
 
     :hover {
         cursor: pointer;
@@ -97,7 +92,7 @@ body {
 
 .about {
     width: 80%;
-    margin: 250px auto 0 auto;
+    margin: 300px auto 0 auto;
     text-align: center;
 }
 
@@ -108,7 +103,7 @@ body {
 }
 
 .treatments {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -126,7 +121,7 @@ body {
 
 
 .popularProcedures {
-    width: 70%;
+    width: 100%;
     margin: 150px auto 0 auto;
 }
 
@@ -156,7 +151,7 @@ body {
 }
 
 .testimonial {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     background-color: $lightPink;
 }
@@ -170,7 +165,7 @@ body {
 }
 
 .team {
-    width: 70%;
+    width: 100%;
     margin: 150px auto 0 auto;
 }
 
@@ -183,16 +178,16 @@ body {
 
 .teamDetail {
     position:absolute;
-    width: 80%;
-    top:480px;
-    left: 42px;
+    width: 80%;  //80% of teamCard
+    bottom: -20%; //half of 336
+    left: 10%;
 }
 
 .selectedDetail {
     position:absolute;
     width: 80%;
-    top:450px;
-    left: 42px;
+    bottom: -20%;
+    left: 10%;
 }
 
 .flexIcons {
@@ -210,15 +205,166 @@ body {
 
 .apptForm {
     width: 100%;
-    margin-top: 100px;
-    height: 570px;
+    margin-top: 150px;
+    height: auto;
     display: flex;
 }
 
-.formDiv {
+.greyDiv {
     width: 30%;
 }
 
-.form {
+.formDiv {
     width: 70%;
+}
+.form {
+    width: 85%;
+}
+
+.inputField {
+    width: 80%;
+}
+
+.contact {
+    width: 60%;
+    margin: 150px auto 0 auto;
+    clear: both;
+}
+
+.contactGrid {
+    margin-top: 70px;
+    width:45%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.contactGridItem {
+    padding: 20px;
+}
+
+.contactForm {
+    margin-top: 70px;
+    width: 55%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+.contactForm button {
+    width: 140px;
+}
+
+.bannerBottom {
+    margin-top: 200px;
+    width: 100%;
+    clear: both;
+}
+
+.banner-links {
+    @extend .links;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+    div {
+        font-size: 0.9em;
+    }
+}
+
+.banner-icons {
+    @extend .flexIcons;
+    width: 20%;
+    margin:auto;
+    padding: 30px;
+}
+
+
+
+
+@media (max-width: 1150px) {
+    .contact {
+        width: 75%;
+        margin: 150px auto 0 auto;
+        clear: both;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .about {
+        width: 90%;
+        margin: 200px auto 0 auto;
+        text-align: center;
+    }
+
+    .greyDiv {
+        width: 0%;
+    }
+
+    .formDiv {
+        width: 100%;
+    }
+
+    .form {
+        width: 95%;
+    }
+
+    .contact {
+        width: 85%;
+        margin: 150px auto 0 auto;
+        clear: both;
+    }
+
+}
+
+@media (max-width: 820px) {
+    .contactGrid {
+        margin: 70px auto 0 auto;
+        width:90%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .contactForm {
+        margin: auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .about {
+        width: 90%;
+        margin: 200px auto 0 auto;
+        text-align: center;
+    }
+
+    .greyDiv {
+        width: 0%;
+    }
+
+    .formDiv {
+        width: 100%;
+    }
+
+    .form {
+        width: 95%;
+    }
+    .inputField {
+        width: 100%;
+    }
+
+    .banner-icons {
+        @extend .flexIcons;
+        width: 70%;
+        margin:auto;
+        padding: 30px;
+    }
+
+    .contact {
+        width: 95%;
+        margin: 150px auto 0 auto;
+        clear: both;
+    }
 }
