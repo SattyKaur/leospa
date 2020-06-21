@@ -5824,28 +5824,8 @@ video {
   -moz-osx-font-smoothing: auto
 }
 
-.tracking-tighter {
-  letter-spacing: -0.05em
-}
-
-.tracking-tight {
-  letter-spacing: -0.025em
-}
-
-.tracking-normal {
-  letter-spacing: 0
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em
-}
-
 .tracking-widest {
-  letter-spacing: 0.1em
+  letter-spacing: 0.3em
 }
 
 .select-none {
@@ -13791,28 +13771,8 @@ video {
     -moz-osx-font-smoothing: auto
   }
 
-  .xs\:tracking-tighter {
-    letter-spacing: -0.05em
-  }
-
-  .xs\:tracking-tight {
-    letter-spacing: -0.025em
-  }
-
-  .xs\:tracking-normal {
-    letter-spacing: 0
-  }
-
-  .xs\:tracking-wide {
-    letter-spacing: 0.025em
-  }
-
-  .xs\:tracking-wider {
-    letter-spacing: 0.05em
-  }
-
   .xs\:tracking-widest {
-    letter-spacing: 0.1em
+    letter-spacing: 0.3em
   }
 
   .xs\:select-none {
@@ -21759,28 +21719,8 @@ video {
     -moz-osx-font-smoothing: auto
   }
 
-  .sm\:tracking-tighter {
-    letter-spacing: -0.05em
-  }
-
-  .sm\:tracking-tight {
-    letter-spacing: -0.025em
-  }
-
-  .sm\:tracking-normal {
-    letter-spacing: 0
-  }
-
-  .sm\:tracking-wide {
-    letter-spacing: 0.025em
-  }
-
-  .sm\:tracking-wider {
-    letter-spacing: 0.05em
-  }
-
   .sm\:tracking-widest {
-    letter-spacing: 0.1em
+    letter-spacing: 0.3em
   }
 
   .sm\:select-none {
@@ -29727,28 +29667,8 @@ video {
     -moz-osx-font-smoothing: auto
   }
 
-  .md\:tracking-tighter {
-    letter-spacing: -0.05em
-  }
-
-  .md\:tracking-tight {
-    letter-spacing: -0.025em
-  }
-
-  .md\:tracking-normal {
-    letter-spacing: 0
-  }
-
-  .md\:tracking-wide {
-    letter-spacing: 0.025em
-  }
-
-  .md\:tracking-wider {
-    letter-spacing: 0.05em
-  }
-
   .md\:tracking-widest {
-    letter-spacing: 0.1em
+    letter-spacing: 0.3em
   }
 
   .md\:select-none {
@@ -37695,28 +37615,8 @@ video {
     -moz-osx-font-smoothing: auto
   }
 
-  .lg\:tracking-tighter {
-    letter-spacing: -0.05em
-  }
-
-  .lg\:tracking-tight {
-    letter-spacing: -0.025em
-  }
-
-  .lg\:tracking-normal {
-    letter-spacing: 0
-  }
-
-  .lg\:tracking-wide {
-    letter-spacing: 0.025em
-  }
-
-  .lg\:tracking-wider {
-    letter-spacing: 0.05em
-  }
-
   .lg\:tracking-widest {
-    letter-spacing: 0.1em
+    letter-spacing: 0.3em
   }
 
   .lg\:select-none {
@@ -45663,28 +45563,8 @@ video {
     -moz-osx-font-smoothing: auto
   }
 
-  .xl\:tracking-tighter {
-    letter-spacing: -0.05em
-  }
-
-  .xl\:tracking-tight {
-    letter-spacing: -0.025em
-  }
-
-  .xl\:tracking-normal {
-    letter-spacing: 0
-  }
-
-  .xl\:tracking-wide {
-    letter-spacing: 0.025em
-  }
-
-  .xl\:tracking-wider {
-    letter-spacing: 0.05em
-  }
-
   .xl\:tracking-widest {
-    letter-spacing: 0.1em
+    letter-spacing: 0.3em
   }
 
   .xl\:select-none {
@@ -48434,13 +48314,17 @@ body {
   height: auto;
 }
 
+button:focus {
+  outline: 0;
+}
+
 .backgroundImage {
   width: 100%;
   position: absolute;
   z-index: -1;
 }
 
-.banner {
+.intro {
   width: 65%;
   margin: auto;
 }
@@ -48450,12 +48334,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-}
-
-.icon {
-  width: 65px;
-  margin: auto;
-  height: 55px;
 }
 
 .links div, .banner-links div {
@@ -48468,17 +48346,7 @@ body {
   cursor: pointer;
 }
 
-.spacing {
-  letter-spacing: 4px;
-}
-
-.des {
-  margin: 20px 0 25px 0;
-}
-
 .playButton {
-  margin-left: 30px;
-  margin-right: 30px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -48499,14 +48367,8 @@ body {
 
 .about {
   width: 80%;
-  margin: 300px auto 0 auto;
+  margin: 250px auto 0 auto;
   text-align: center;
-}
-
-.logo {
-  width: 95px;
-  margin: auto;
-  height: 75px;
 }
 
 .treatments {
@@ -48520,15 +48382,9 @@ body {
   padding-top: 120%;
 }
 
-.verticaCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .popularProcedures {
   width: 100%;
-  margin: 150px auto 0 auto;
+  margin-top: 150px;
 }
 
 .cardContainer {
@@ -48551,11 +48407,6 @@ body {
   margin: 20px;
 }
 
-.cardButton {
-  display: block;
-  margin: 20px auto 25px auto;
-}
-
 .testimonial {
   margin-top: 150px;
   width: 100%;
@@ -48563,11 +48414,40 @@ body {
 }
 
 .dot {
-  height: 20px;
   width: 20px;
-  margin: 0 10px 25px 10px;
+  height: 20px;
   border-radius: 50%;
-  display: inline-block;
+  background-color: #FF817D;
+  float: left;
+}
+
+.slick-dots {
+  background-color: #FFF0EA;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+
+.slick-dots button {
+  display: block;
+  width: 0.7rem;
+  height: 0.7rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #FF817D;
+  text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #ff5c57;
+  outline: none;
 }
 
 .team {
@@ -48583,13 +48463,6 @@ body {
 }
 
 .teamDetail {
-  position: absolute;
-  width: 80%;
-  bottom: -20%;
-  left: 10%;
-}
-
-.selectedDetail {
   position: absolute;
   width: 80%;
   bottom: -20%;
@@ -48661,19 +48534,21 @@ body {
 }
 
 .bannerBottom {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 100%;
   clear: both;
 }
 
 .banner-links {
+  display: flex;
   justify-content: center;
   width: 80%;
   margin: auto;
 }
 
 .banner-links div {
-  font-size: 0.9em;
+  font-size: 0.7em;
+  margin: 10px;
 }
 
 .banner-icons {
@@ -48710,7 +48585,7 @@ body {
   }
 
   .contact {
-    width: 85%;
+    width: 95%;
     margin: 150px auto 0 auto;
     clear: both;
   }
@@ -48739,18 +48614,6 @@ body {
     text-align: center;
   }
 
-  .greyDiv {
-    width: 0%;
-  }
-
-  .formDiv {
-    width: 100%;
-  }
-
-  .form {
-    width: 95%;
-  }
-
   .inputField {
     width: 100%;
   }
@@ -48759,11 +48622,5 @@ body {
     width: 70%;
     margin: auto;
     padding: 30px;
-  }
-
-  .contact {
-    width: 95%;
-    margin: 150px auto 0 auto;
-    clear: both;
   }
 }

@@ -8,6 +8,9 @@ module.exports = {
           lg: '1024px',
           xl: '1280px',
       },
+      letterSpacing: {
+          widest: '0.3em'
+      },
       fontFamily: {
           serif: ['Roboto', 'sans-serif'],
           sans: ['Rufina', 'serif'],
